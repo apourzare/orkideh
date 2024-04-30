@@ -1,0 +1,76 @@
+@import url('https://v1.fontapi.ir/css/Shabnam');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Shabnam, sans-serif;
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    background-color: #f1f3f5;
+    color: #32325d;
+}
+
+a {
+    text-decoration: none;
+    color: #32325d;
+}
+
+
+header {
+    padding: 50px 0;
+}
+
+header .navbar {
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 144px;
+    height: 70px;
+}
+
+header .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+header .navbar-nav a {
+    white-space: nowrap;
+    /* padding: 0 8px; */
+}
+
+header .left-side {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+header .left-side .search-button  {
+    background-color: transparent;
+    border: none;
+}
+
+header .left-side span {
+    color: #32325d;
+    fill: #32325d;
+}
+
+header .left-side .cart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #CFD3DC;
+    padding: 8px 16px;
+    border-radius: 25px;
+}
